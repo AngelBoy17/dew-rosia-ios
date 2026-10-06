@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0F1A2B3C4D5E6F7A8B9C30 /* DewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F1A2B3C4D5E6F7A8B9C21 /* DewApp.swift */; };
+		8D0F1A2B3C4D5E6F7A8B9C31 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F1A2B3C4D5E6F7A8B9C22 /* RootView.swift */; };
+		8D0F1A2B3C4D5E6F7A8B9C32 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F1A2B3C4D5E6F7A8B9C23 /* HomeView.swift */; };
+		8D0F1A2B3C4D5E6F7A8B9C33 /* BreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F1A2B3C4D5E6F7A8B9C24 /* BreatheView.swift */; };
+		8D0F1A2B3C4D5E6F7A8B9C34 /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F1A2B3C4D5E6F7A8B9C25 /* MoodView.swift */; };
+		8D0F1A2B3C4D5E6F7A8B9C35 /* GlassUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F1A2B3C4D5E6F7A8B9C26 /* GlassUI.swift */; };
+		8D0F1A2B3C4D5E6F7A8B9C36 /* MoodStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F1A2B3C4D5E6F7A8B9C28 /* MoodStore.swift */; };
+		8D0F1A2B3C4D5E6F7A8B9C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0F1A2B3C4D5E6F7A8B9C27 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D0F1A2B3C4D5E6F7A8B9C20 /* Dew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0F1A2B3C4D5E6F7A8B9C21 /* DewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DewApp.swift; sourceTree = "<group>"; };
+		8D0F1A2B3C4D5E6F7A8B9C22 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8D0F1A2B3C4D5E6F7A8B9C23 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8D0F1A2B3C4D5E6F7A8B9C24 /* BreatheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheView.swift; sourceTree = "<group>"; };
+		8D0F1A2B3C4D5E6F7A8B9C25 /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		8D0F1A2B3C4D5E6F7A8B9C26 /* GlassUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassUI.swift; sourceTree = "<group>"; };
+		8D0F1A2B3C4D5E6F7A8B9C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D0F1A2B3C4D5E6F7A8B9C28 /* MoodStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0F1A2B3C4D5E6F7A8B9C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0F1A2B3C4D5E6F7A8B9C10 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F1A2B3C4D5E6F7A8B9C11 /* Dew */,
+				8D0F1A2B3C4D5E6F7A8B9C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D0F1A2B3C4D5E6F7A8B9C11 /* Dew */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F1A2B3C4D5E6F7A8B9C21 /* DewApp.swift */,
+				8D0F1A2B3C4D5E6F7A8B9C22 /* RootView.swift */,
+				8D0F1A2B3C4D5E6F7A8B9C23 /* HomeView.swift */,
+				8D0F1A2B3C4D5E6F7A8B9C24 /* BreatheView.swift */,
+				8D0F1A2B3C4D5E6F7A8B9C25 /* MoodView.swift */,
+				8D0F1A2B3C4D5E6F7A8B9C26 /* GlassUI.swift */,
+				8D0F1A2B3C4D5E6F7A8B9C28 /* MoodStore.swift */,
+				8D0F1A2B3C4D5E6F7A8B9C27 /* Assets.xcassets */,
+			);
+			path = Dew;
+			sourceTree = "<group>";
+		};
+		8D0F1A2B3C4D5E6F7A8B9C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F1A2B3C4D5E6F7A8B9C20 /* Dew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0F1A2B3C4D5E6F7A8B9C0E /* Dew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0F1A2B3C4D5E6F7A8B9C17 /* Build configuration list for PBXNativeTarget "Dew" */;
+			buildPhases = (
+				8D0F1A2B3C4D5E6F7A8B9C13 /* Sources */,
+				8D0F1A2B3C4D5E6F7A8B9C15 /* Frameworks */,
+				8D0F1A2B3C4D5E6F7A8B9C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dew;
+			productName = Dew;
+			productReference = 8D0F1A2B3C4D5E6F7A8B9C20 /* Dew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D0F1A2B3C4D5E6F7A8B9C0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8D0F1A2B3C4D5E6F7A8B9C0E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 8D0F1A2B3C4D5E6F7A8B9C16 /* Build configuration list for PBXProject "Dew" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				Base,
+			);
+			mainGroup = 8D0F1A2B3C4D5E6F7A8B9C10 /* Root */;
+			productRefGroup = 8D0F1A2B3C4D5E6F7A8B9C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0F1A2B3C4D5E6F7A8B9C0E /* Dew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0F1A2B3C4D5E6F7A8B9C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0F1A2B3C4D5E6F7A8B9C37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0F1A2B3C4D5E6F7A8B9C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0F1A2B3C4D5E6F7A8B9C30 /* DewApp.swift in Sources */,
+				8D0F1A2B3C4D5E6F7A8B9C31 /* RootView.swift in Sources */,
+				8D0F1A2B3C4D5E6F7A8B9C32 /* HomeView.swift in Sources */,
+				8D0F1A2B3C4D5E6F7A8B9C33 /* BreatheView.swift in Sources */,
+				8D0F1A2B3C4D5E6F7A8B9C34 /* MoodView.swift in Sources */,
+				8D0F1A2B3C4D5E6F7A8B9C35 /* GlassUI.swift in Sources */,
+				8D0F1A2B3C4D5E6F7A8B9C36 /* MoodStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D0F1A2B3C4D5E6F7A8B9C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D0F1A2B3C4D5E6F7A8B9C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D0F1A2B3C4D5E6F7A8B9C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Роса";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.liquid.dew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8D0F1A2B3C4D5E6F7A8B9C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Роса";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.liquid.dew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D0F1A2B3C4D5E6F7A8B9C16 /* Build configuration list for PBXProject "Dew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0F1A2B3C4D5E6F7A8B9C18 /* Debug */,
+				8D0F1A2B3C4D5E6F7A8B9C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0F1A2B3C4D5E6F7A8B9C17 /* Build configuration list for PBXNativeTarget "Dew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0F1A2B3C4D5E6F7A8B9C1A /* Debug */,
+				8D0F1A2B3C4D5E6F7A8B9C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D0F1A2B3C4D5E6F7A8B9C0D /* Project object */;
+}

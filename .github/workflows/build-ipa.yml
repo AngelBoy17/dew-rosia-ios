@@ -1,0 +1,20 @@
+name: Build IPA
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  ipa:
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build unsigned IPA
+        run: bash Scripts/build-ipa.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Dew
+          path: dist/Dew.ipa
+          if-no-files-found: error
+          retention-days: 7
